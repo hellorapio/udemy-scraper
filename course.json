@@ -1,1 +1,91 @@
-[]
+[
+  {
+    "name": "NestJS: The Complete Developer's Guide",
+    "sections": 20,
+    "lectures": 244,
+    "length": "19h 44m",
+    "description": "Build full featured backend APIs incredibly quickly with Nest, TypeORM, and Typescript. Includes testing and deployment!",
+    "learnList": [
+      "Deploy a feature-complete app to production",
+      "Build authentication and permissions systems from scratch",
+      "Write integration and unit tests to ensure your code is working",
+      "Automatically validate data included with incoming requests",
+      "Use an API client to manually test your app",
+      "Apply structure to your code with Typescript",
+      "Make your code more reusable and testable with dependency injection",
+      "Tie different types of data together with TypeORM relationships",
+      "Get a behind-the-scenes understanding of NestJS",
+      "Use Guards to prevent unauthorized users from gaining access to sensitive data",
+      "Understand Nest's special request-response cycle",
+      "Model your app's data using TypeORM entities",
+      "Use decorators to dramatically simplify your code"
+    ]
+  },
+  {
+    "name": "Typescript: The Complete Developer's Guide",
+    "sections": 20,
+    "lectures": 339,
+    "length": "27h 19m",
+    "description": "Master Typescript by learning popular design patterns and building complex projects. Includes React and Express!",
+    "learnList": [
+      "Master design patterns for building large applications",
+      "Integrate Typescript into React/Redux or Express projects",
+      "Understand Composition vs Inheritance, and when to use each",
+      "Write reusable code powered by classes and interfaces",
+      "Assemble reusable boilerplates for your own Typescript projects"
+    ]
+  },
+  {
+    "name": "Machine Learning with Javascript",
+    "sections": 15,
+    "lectures": 187,
+    "length": "17h 40m",
+    "description": "Master Machine Learning from scratch using Javascript and TensorflowJS with hands-on projects.",
+    "learnList": [
+      "Assemble machine learning algorithms from scratch!",
+      "Build interesting applications using Javascript and ML techniques",
+      "Understand how ML works without relying on mysterious libraries",
+      "Optimize your algorithms with advanced performance and memory usage profiling",
+      "Use the low-level features of Tensorflow JS to supercharge your algorithms",
+      "Grow a strong intuition of ML best practices"
+    ]
+  },
+  {
+    "name": "Fundamentals of Database Engineering",
+    "sections": 18,
+    "lectures": 155,
+    "length": "26h 30m",
+    "description": "Learn ACID, Indexing, Partitioning, Sharding, Concurrency control, Replication, DB Engines, Best Practices and More!",
+    "learnList": [
+      "Learn and understand ACID Properties",
+      "Database Indexing",
+      "Database Partitioning",
+      "Database Replication",
+      "Database Sharding",
+      "Database Cursors",
+      "Concurrency Control (Optimistic, Pessimistic)",
+      "B-Trees in Production Database Systems",
+      "Database System Designs",
+      "Difference between Database Management System, Database Engine and Embedded database",
+      "Database Engines such as MyISAM, InnoDB, RocksDB, LevelDB and More",
+      "Benefits of Using one database engine over the other",
+      "Switching Database Engines with MySQL",
+      "Database Security",
+      "Homomorphic Encryption"
+    ]
+  },
+  {
+    "name": "Docker and Kubernetes: The Complete Guide",
+    "sections": 19,
+    "lectures": 315,
+    "length": "21h 59m",
+    "description": "Build, test, and deploy Docker applications with Kubernetes while learning production-style development workflows",
+    "learnList": [
+      "Learn Docker from scratch, no previous experience required",
+      "Master the Docker CLI to inspect and debug running containers",
+      "Build a CI + CD pipeline from scratch with Github, Travis CI, and AWS",
+      "Understand the purpose and theory of Kubernetes by building a complex app",
+      "Automatically deploy your code when it is pushed to Github!"
+    ]
+  }
+]

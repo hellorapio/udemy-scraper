@@ -54,6 +54,11 @@ async function udemy(course: string) {
     selectors.stats
   );
 
+  const learnList = await udemyCourse.$$eval(
+    selectors.whatToLearn,
+    (lis) => lis.map((li) => li.textContent)
+  );
+
   const details = (
     await detailsElement?.evaluate((ele: any) => ele.innerText)
   ).split("• ");
@@ -64,6 +69,7 @@ async function udemy(course: string) {
     lectures: parseInt(details[1].split(" ")[0]),
     length: details[2].substring(0, 7).trim(),
     description: headlineDescription,
+    learnList,
   });
 
   await writeFile("./course.json", JSON.stringify(await coursesData));
